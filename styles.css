@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karantina';
+    font-style: normal;
+}
+
+body {
+    margin-left: 100px;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+.fullheight {
+    background-image: url(./assets/bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+}
+
+header {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    margin-top: 64px;
+}
+
+.header-div {
+    display: inline-block;
+    position: absolute;
+    margin: 44px 0 44px 200px;
+    width: 1200px;
+    height: 24px;   
+}
+
+.logo {
+    width: 170px;
+    height: auto;
+}
+
+.link-top {
+    width: 64px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 200%;
+    text-transform: uppercase;
+    color: #977656;
+    margin-right: 48px;
+}
+
+.link-carrinho {
+    width: 64px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 200%;
+    text-transform: uppercase;
+    color: #977656;
+}
+
+.button-carrinho {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 24px;
+    height: 24px;
+    background: #977656;
+    border-radius: 32px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sacola {
+    margin-left: 10%;
+}
+
+.main-div {
+    margin-top: 250px;
+}
+
+h1 {
+    width: 450px;
+    height: 170px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #F2DAC2;
+    margin-bottom: 24px;
+}
+
+h2 {
+    width: 405px;
+    height: 125px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #977656;
+    margin-bottom: 24px;
+}
+
+p {
+    width: 542px;
+    height: 160px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #F2DAC2;
+    opacity: 0.64;
+    margin-bottom: 48px;
+}
+
+.botton-button {
+    padding: 16px 7px;
+    width: 153px;
+    height: 56px;
+    background: #977656;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+    text-transform: uppercase;
+    color: #F2DAC2;
+}
+
+.botton-button2 {
+    padding: 16px 24px;
+    width: 154px;
+    height: 56px;
+    border: 1px solid #977656;
+    background-color: transparent;
+    color: #977656;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+    text-transform: uppercase;
+}
+
+.facebook-img {
+    width: 40px;
+    height: 40px;
+    background: #977656;
+    border-radius: 80px;
+    margin-top: 40px;
+}
